@@ -22,8 +22,7 @@ public class Cart {
     @Column(name = "total_amount")
     private int totalAmount;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
+    @OneToOne(mappedBy = "user_id")
     private User user;
 
     @ManyToMany

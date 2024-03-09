@@ -42,7 +42,12 @@ public class User {
     @JsonIgnore
     private List<Review> reviewList;
 
-    @OneToMany(mappedBy = "shopping_carts")
-    @JsonIgnore
-    private List<Cart> cartList;
+    @OneToOne(mappedBy = "shopping_carts")
+    private Cart cart;
+
+    @ManyToMany
+    @JoinTable(name = "wishlist_user",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "products_id"))
+    List<Product> wishlistProductList;
 }

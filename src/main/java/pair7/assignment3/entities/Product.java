@@ -26,7 +26,7 @@ public class Product {
     private String description;
 
     @Column(name = "price")
-    private int price;
+    private double price;
 
     @Column(name = "stock")
     private int stock;
@@ -38,6 +38,10 @@ public class Product {
     @ManyToMany(mappedBy = "products_id")
     @JsonIgnore
     private Seller seller;
+
+    @ManyToMany(mappedBy = "products_id")
+    @JsonIgnore
+    private User user;
 
     @ManyToMany(mappedBy = "products_id")
     @JsonIgnore
