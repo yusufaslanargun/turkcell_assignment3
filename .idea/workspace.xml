@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99291bd7-da47-41b6-867e-e66405e7426c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/controllers/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/controllers/ProductsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/OrderDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Seller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/repositories/abstracts/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/repositories/abstracts/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/abstracts/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/abstracts/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/concrete/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/concrete/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +67,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Assignment3Application.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",

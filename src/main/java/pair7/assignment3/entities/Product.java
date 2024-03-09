@@ -29,29 +29,36 @@ public class Product {
     private double price;
 
     @Column(name = "stock")
-    private int stock;
+    private long stock;
 
-    @ManyToMany(mappedBy = "products_id")
-    @JsonIgnore
-    private Category category;
-
-    @ManyToMany(mappedBy = "products_id")
-    @JsonIgnore
-    private Seller seller;
-
-    @ManyToMany(mappedBy = "products_id")
-    @JsonIgnore
-    private User user;
-
-    @ManyToMany(mappedBy = "products_id")
-    @JsonIgnore
-    private Cart cart;
-
-    @OneToMany(mappedBy = "discounts")
-    @JsonIgnore
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "product1", cascade = CascadeType.ALL)
     private List<Discount> discountList;
 
-    @OneToMany(mappedBy = "reviews")
-    @JsonIgnore
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "product2", cascade = CascadeType.ALL)
     private List<Review> reviewList;
+
+    @ManyToMany
+    @JoinTable(name = "wishlists_users",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "user_id"))
+    private List<User> wishlistUserList;
+
+    @ManyToMany
+    @JoinTable(name = "shopping_carts_products",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "shopping_cart_id"))
+    private List<Cart> cartList;
+
+    @ManyToMany
+    @JoinTable(name = "products_categories",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "category_id"))
+    private List<Category> categoryList;
+
+    @ManyToMany
+    @JoinTable(name = "sellers_products",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "seller_id"))
+    private List<Seller> sellerList;
+
 }

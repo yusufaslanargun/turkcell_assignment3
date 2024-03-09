@@ -13,33 +13,33 @@ import java.util.List;
 @RequestMapping("/api/products")
 public class ProductsController
 {
-    // Dependency Injection
-    // @Autowired
-    private ProductService productService;
-
-    public ProductsController(ProductService productService) {
-        this.productService = productService;
-    }
-
-    // DTO => Data Transfer Object
-    @PostMapping
-    public void add(@RequestBody @Valid AddProductRequest request)
-    {
-        productService.add(request);
-    }
-    @GetMapping
-    public List<ProductListResponse> get() {
-        return productService.getAll();
-    }
-
-    @GetMapping("search")
-    public List<ProductListResponse> search(@RequestParam String query)
-    {
-        return productService.search(query);
-    }
-    @GetMapping("price")
-    public List<Product> price(@RequestParam double price)
-    {
-        return productService.price(price);
-    }
+//    // Dependency Injection
+//    // @Autowired
+//    private ProductService productService;
+//
+//    public ProductsController(ProductService productService) {
+//        this.productService = productService;
+//    }
+//
+//    // DTO => Data Transfer Object
+//    @PostMapping
+//    public void add(@RequestBody @Valid AddProductRequest request)
+//    {
+//        productService.add(request);
+//    }
+//    @GetMapping
+//    public List<ProductListResponse> get() {
+//        return productService.getAll();
+//    }
+//
+//    @GetMapping("search")
+//    public List<ProductListResponse> search(@RequestParam String query)
+//    {
+//        return productService.search(query);
+//    }
+//    @GetMapping("price")
+//    public List<Product> price(@RequestParam double price)
+//    {
+//        return productService.price(price);
+//    }
 }

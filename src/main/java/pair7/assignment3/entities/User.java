@@ -30,24 +30,22 @@ public class User {
     @Column(name = "phone")
     private String phone;
 
-    @OneToMany(mappedBy = "address")
-    @JsonIgnore
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
     private List<Address> addressList;
 
-    @OneToMany(mappedBy = "orders")
-    @JsonIgnore
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user1", cascade = CascadeType.ALL)
     private List<Order> orderList;
 
-    @OneToMany(mappedBy = "reviews")
-    @JsonIgnore
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user2", cascade = CascadeType.ALL)
     private List<Review> reviewList;
 
-    @OneToOne(mappedBy = "shopping_carts")
+    @OneToOne(mappedBy = "user")
+    @JsonIgnore
     private Cart cart;
 
     @ManyToMany
-    @JoinTable(name = "wishlist_user",
+    @JoinTable(name = "wishlists_users",
             joinColumns = @JoinColumn(name = "user_id"),
-            inverseJoinColumns = @JoinColumn(name = "products_id"))
+            inverseJoinColumns = @JoinColumn(name = "product_id"))
     List<Product> wishlistProductList;
 }

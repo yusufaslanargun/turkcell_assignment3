@@ -1,6 +1,7 @@
 package pair7.assignment3.entities;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,14 +21,16 @@ public class Cart {
     private int id;
 
     @Column(name = "total_amount")
-    private int totalAmount;
+    private double totalAmount;
 
-    @OneToOne(mappedBy = "user_id")
+    @OneToOne()
+    @JoinColumn(name = "user_id")
+    @JsonIgnore
     private User user;
 
     @ManyToMany
     @JoinTable(name = "shopping_carts_products",
-            joinColumns = @JoinColumn(name = "shopping_carts_id"),
-            inverseJoinColumns = @JoinColumn(name = "products_id"))
+            joinColumns = @JoinColumn(name = "shopping_cart_id"),
+            inverseJoinColumns = @JoinColumn(name = "product_id"))
     List<Product> productList;
 }

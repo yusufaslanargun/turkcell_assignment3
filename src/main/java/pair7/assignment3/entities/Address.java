@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Table(name = "address")
+@Table(name = "addresses")
 @Entity
 @Data
 @AllArgsConstructor
@@ -39,4 +39,8 @@ public class Address {
     @ManyToOne()
     @JoinColumn(name = "user_id")
     private User user;
+
+    @ManyToOne()
+    @JoinColumn(name = "seller_id")
+    private Seller seller;
 }

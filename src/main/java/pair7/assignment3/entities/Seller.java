@@ -1,5 +1,6 @@
 package pair7.assignment3.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,18 +21,21 @@ public class Seller {
     @Column(name = "company_name")
     private String companyName;
 
-    @Column(name = "mail_address")
+    @Column(name = "mail")
     private String mailAddress;
 
     @Column(name = "tax_number")
     private String taxNumber;
 
-    @Column(name = "phone_number")
+    @Column(name = "phone")
     private String phoneNumber;
 
     @ManyToMany
     @JoinTable(name = "sellers_products",
-    joinColumns = @JoinColumn(name = "sellers_id"),
-    inverseJoinColumns = @JoinColumn(name = "products_id"))
+    joinColumns = @JoinColumn(name = "seller_id"),
+    inverseJoinColumns = @JoinColumn(name = "product_id"))
     List<Product> productList;
+
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "seller", cascade = CascadeType.ALL)
+    private List<Address> addressList;
 }

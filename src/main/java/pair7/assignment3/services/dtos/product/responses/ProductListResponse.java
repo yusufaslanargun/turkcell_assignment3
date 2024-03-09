@@ -10,6 +10,5 @@ import lombok.*;
 public class ProductListResponse {
     private int id;
     private String name;
-    private String categoryName;
     private double price;
 }

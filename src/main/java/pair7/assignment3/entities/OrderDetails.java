@@ -24,6 +24,7 @@ public class OrderDetails {
     @Column(name = "payment_method")
     private String paymentMethod;
 
-    @OneToOne(mappedBy = "order_details")
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "order_id")
     private Order order;
 }

@@ -24,19 +24,17 @@ public class Order {
     private Date date;
 
     @Column(name = "total_amount")
-    private int totalAmount;
+    private double totalAmount;
 
     @Column(name = "order_status")
     private boolean orderStatus;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;
+    private User user1;
 
-    @OneToOne(mappedBy = "order_details")
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "order_details_id")
     private OrderDetails orderDetails;
 
-    @OneToMany(mappedBy = "products")
-    @JsonIgnore
-    private List<Product> productList;
 }

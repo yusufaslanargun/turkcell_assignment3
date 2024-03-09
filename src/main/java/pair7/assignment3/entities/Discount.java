@@ -22,17 +22,13 @@ public class Discount {
     @Column(name = "name")
     private String name;
 
-    @Temporal(TemporalType.DATE)
-    @Column(name = "expiration_date")
-    private Date expirationDate;
-
     @Column(name = "min_price_amount")
-    private int minPriceAmount;
+    private double minPriceAmount;
 
     @Column(name = "description")
     private String description;
 
     @ManyToOne()
     @JoinColumn(name = "product_id")
-    private Product product;
+    private Product product1;
 }
