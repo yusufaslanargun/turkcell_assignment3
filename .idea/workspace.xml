@@ -6,26 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="99291bd7-da47-41b6-867e-e66405e7426c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/controllers/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/controllers/ProductsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/OrderDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/entities/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/repositories/abstracts/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/repositories/abstracts/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/abstracts/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/abstracts/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/concrete/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/concrete/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/controllers/ProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/controllers/ProductsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/OrderDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/OrderDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/entities/Review.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/repositories/abstracts/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/repositories/abstracts/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/services/abstracts/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/services/abstracts/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/services/concrete/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/services/concrete/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/services/dtos/product/requests/AddProductRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/services/dtos/product/requests/AddProductRequest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

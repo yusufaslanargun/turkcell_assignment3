@@ -15,7 +15,7 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     List<Product> search(String query);
 
     @Query(value = "Select new pair7.assignment3.services.dtos.product.responses.ProductListResponse" +
-            "(p.id, p.name, p.price)" + " WHERE lower(p.name) LIKE %:query%")
+            "(p.id, p.name, p.price) from Product p " + " WHERE lower(p.name) LIKE %:query%")
     List<ProductListResponse> searchDto(String query);
 
 
