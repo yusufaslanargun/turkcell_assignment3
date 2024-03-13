@@ -17,10 +17,6 @@ public class OrderDetails {
     @Id
     private int id;
 
-    @Temporal(TemporalType.DATE)
-    @Column(name = "payment_date")
-    private Date paymentDate;
-
     @Column(name = "payment_method")
     private String paymentMethod;
 

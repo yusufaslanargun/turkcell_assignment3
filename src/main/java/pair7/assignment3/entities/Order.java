@@ -19,10 +19,6 @@ public class Order {
     @Id
     private int id;
 
-    @Temporal(TemporalType.DATE)
-    @Column(name = "date")
-    private Date date;
-
     @Column(name = "total_amount")
     private double totalAmount;
 
@@ -37,4 +33,9 @@ public class Order {
     @JoinColumn(name = "order_details_id")
     private OrderDetails orderDetails;
 
+    @ManyToMany
+    @JoinTable(name = "orders_products",
+            joinColumns = @JoinColumn(name = "order_id"),
+            inverseJoinColumns = @JoinColumn(name = "product_id"))
+    List<Product> productList;
 }
