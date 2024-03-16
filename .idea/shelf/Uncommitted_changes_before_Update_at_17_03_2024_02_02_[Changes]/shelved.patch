@@ -1,0 +1,202 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"99291bd7-da47-41b6-867e-e66405e7426c\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/pair7/assignment3/repositories/abstracts/ProductRepository.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/pair7/assignment3/repositories/abstracts/ProductRepository.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/pair7/assignment3/repositories/abstracts/ProductRepository.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/pair7/assignment3/repositories/abstracts/ProductRepository.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/pair7/assignment3/services/concrete/ProductServiceImpl.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/pair7/assignment3/services/concrete/ProductServiceImpl.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"Use Maven wrapper\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2dQ37vrE4LINY85LCItJkjZxxVZ\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.Assignment3Application.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/turkcelljavaprojects/assignment3&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"99291bd7-da47-41b6-867e-e66405e7426c\" name=\"Changes\" comment=\"\" />\r\n      <created>1709926310868</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1709926310868</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,9 +6,13 @@
+   <component name="ChangeListManager">
+     <list default="true" id="99291bd7-da47-41b6-867e-e66405e7426c" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/repositories/abstracts/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/repositories/abstracts/ProductRepository.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/repositories/abstracts/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/repositories/abstracts/ProductRepository.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/pair7/assignment3/services/concrete/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pair7/assignment3/services/concrete/ProductServiceImpl.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/controllers/CategoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/controllers/CategoriesController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/abstracts/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/abstracts/CategoryService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/abstracts/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/abstracts/ProductService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/concrete/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/concrete/CategoryServiceImpl.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -43,7 +47,7 @@
+   &quot;associatedIndex&quot;: 4
+ }</component>
+   <component name="ProjectId" id="2dQ37vrE4LINY85LCItJkjZxxVZ" />
+-  <component name="ProjectLevelVcsManager">
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="1" id="Add" />
+   </component>
+   <component name="ProjectViewState">
+@@ -61,6 +65,19 @@
+     &quot;last_opened_file_path&quot;: &quot;D:/turkcelljavaprojects/assignment3&quot;
+   }
+ }</component>
++  <component name="RunManager">
++    <configuration default="true" type="JetRunConfigurationType">
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <option name="filePath" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+Index: src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pair7.assignment3.services.dtos.product.responses;\r\n\r\nimport jakarta.validation.constraints.*;\r\nimport lombok.*;\r\n\r\n@Getter\r\n@Setter\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\npublic class ProductListResponse {\r\n    private int id;\r\n    private String name;\r\n    private double price;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java b/src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java
+--- a/src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java	
++++ b/src/main/java/pair7/assignment3/services/dtos/product/responses/ProductListResponse.java	
+@@ -5,10 +5,16 @@
+ 
+ @Getter
+ @Setter
+-@AllArgsConstructor
+ @NoArgsConstructor
+ public class ProductListResponse {
+     private int id;
+     private String name;
+     private double price;
++
++    public ProductListResponse(int id, String name, double price) {
++        this.id=id;
++        this.name =name;
++        this.price=price;
++
++    }
+ }
+Index: src/main/java/pair7/assignment3/services/abstracts/CategoryService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pair7.assignment3.services.abstracts;\r\n\r\nimport pair7.assignment3.entities.Category;\r\n\r\nimport java.util.List;\r\n\r\npublic interface CategoryService {\r\n    List<Category> getAll();\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/pair7/assignment3/services/abstracts/CategoryService.java b/src/main/java/pair7/assignment3/services/abstracts/CategoryService.java
+--- a/src/main/java/pair7/assignment3/services/abstracts/CategoryService.java	
++++ b/src/main/java/pair7/assignment3/services/abstracts/CategoryService.java	
+@@ -1,9 +1,10 @@
+ package pair7.assignment3.services.abstracts;
+ 
++import org.springframework.stereotype.Service;
+ import pair7.assignment3.entities.Category;
+ 
+ import java.util.List;
+-
++@Service
+ public interface CategoryService {
+     List<Category> getAll();
+ }
+Index: src/main/java/pair7/assignment3/services/concrete/CategoryServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pair7.assignment3.services.concrete;\r\n\r\nimport lombok.AllArgsConstructor;\r\nimport org.springframework.stereotype.Service;\r\nimport pair7.assignment3.entities.Category;\r\nimport pair7.assignment3.repositories.abstracts.CategoryRepository;\r\nimport pair7.assignment3.services.abstracts.CategoryService;\r\n\r\nimport java.util.List;\r\n\r\n@AllArgsConstructor\r\n@Service\r\npublic class CategoryServiceImpl implements CategoryService {\r\n    private final CategoryRepository categoryRepository;\r\n\r\n    @Override\r\n    public List<Category> getAll() {\r\n        return categoryRepository.findAll();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/pair7/assignment3/services/concrete/CategoryServiceImpl.java b/src/main/java/pair7/assignment3/services/concrete/CategoryServiceImpl.java
+--- a/src/main/java/pair7/assignment3/services/concrete/CategoryServiceImpl.java	
++++ b/src/main/java/pair7/assignment3/services/concrete/CategoryServiceImpl.java	
+@@ -8,11 +8,15 @@
+ 
+ import java.util.List;
+ 
+-@AllArgsConstructor
++
+ @Service
+ public class CategoryServiceImpl implements CategoryService {
+     private final CategoryRepository categoryRepository;
+ 
++    public CategoryServiceImpl(CategoryRepository categoryRepository) {
++        this.categoryRepository = categoryRepository;
++    }
++
+     @Override
+     public List<Category> getAll() {
+         return categoryRepository.findAll();
+Index: src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.datasource.url=jdbc:postgresql://localhost:5432/pair7db\r\nspring.datasource.username=postgres\r\nspring.datasource.password=ewq987dsa654\r\n\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect\r\nspring.jpa.properties.javax.persistence.validation.mode=auto\r\nspring.jpa.hibernate.ddl-auto=validate
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/src/main/resources/application.properties b/src/main/resources/application.properties
+--- a/src/main/resources/application.properties	
++++ b/src/main/resources/application.properties	
+@@ -1,6 +1,6 @@
+ spring.datasource.url=jdbc:postgresql://localhost:5432/pair7db
+ spring.datasource.username=postgres
+-spring.datasource.password=ewq987dsa654
++spring.datasource.password=test
+ 
+ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+ spring.jpa.properties.javax.persistence.validation.mode=auto
+Index: src/main/java/pair7/assignment3/controllers/CategoriesController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pair7.assignment3.controllers;\r\n\r\nimport lombok.AllArgsConstructor;\r\nimport org.springframework.web.bind.annotation.GetMapping;\r\nimport org.springframework.web.bind.annotation.RequestMapping;\r\nimport org.springframework.web.bind.annotation.RestController;\r\nimport pair7.assignment3.entities.Category;\r\nimport pair7.assignment3.services.abstracts.CategoryService;\r\n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/api/categories\")\r\n@AllArgsConstructor\r\npublic class CategoriesController {\r\n\r\n    private final CategoryService categoryService;\r\n\r\n    @GetMapping\r\n    public List<Category> getAll(){\r\n        return categoryService.getAll();\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/pair7/assignment3/controllers/CategoriesController.java b/src/main/java/pair7/assignment3/controllers/CategoriesController.java
+--- a/src/main/java/pair7/assignment3/controllers/CategoriesController.java	
++++ b/src/main/java/pair7/assignment3/controllers/CategoriesController.java	
+@@ -11,11 +11,15 @@
+ 
+ @RestController
+ @RequestMapping("/api/categories")
+-@AllArgsConstructor
++
+ public class CategoriesController {
+ 
+     private final CategoryService categoryService;
+ 
++    public CategoriesController(CategoryService categoryService) {
++        this.categoryService = categoryService;
++    }
++
+     @GetMapping
+     public List<Category> getAll(){
+         return categoryService.getAll();
+Index: src/main/java/pair7/assignment3/services/abstracts/ProductService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pair7.assignment3.services.abstracts;\r\n\r\nimport pair7.assignment3.entities.Product;\r\nimport pair7.assignment3.services.dtos.product.requests.AddProductRequest;\r\nimport pair7.assignment3.services.dtos.product.responses.ProductListResponse;\r\n\r\nimport java.util.List;\r\n\r\npublic interface ProductService {\r\n    void add(AddProductRequest request);\r\n    List<ProductListResponse> getAll();\r\n    List<ProductListResponse> search(String query);\r\n    List<Product> price(double price);\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/pair7/assignment3/services/abstracts/ProductService.java b/src/main/java/pair7/assignment3/services/abstracts/ProductService.java
+--- a/src/main/java/pair7/assignment3/services/abstracts/ProductService.java	
++++ b/src/main/java/pair7/assignment3/services/abstracts/ProductService.java	
+@@ -1,11 +1,12 @@
+ package pair7.assignment3.services.abstracts;
+ 
++import org.springframework.stereotype.Service;
+ import pair7.assignment3.entities.Product;
+ import pair7.assignment3.services.dtos.product.requests.AddProductRequest;
+ import pair7.assignment3.services.dtos.product.responses.ProductListResponse;
+ 
+ import java.util.List;
+-
++@Service
+ public interface ProductService {
+     void add(AddProductRequest request);
+     List<ProductListResponse> getAll();

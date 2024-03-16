@@ -1,0 +1,31 @@
+Index: src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pair7.assignment3.services.dtos.product.requests;\r\n\r\nimport jakarta.validation.constraints.*;\r\nimport lombok.*;\r\n\r\n@Getter\r\n@Setter\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\npublic class AddProductRequest {\r\n    //TODO: Move to constants & add multi language\r\n    @NotBlank(message = \"Ürün ismi boş olamaz.\")\r\n    @Size(min = 3, max = 25, message = \"Ürün ismi 3 ile 25 karakter arasında olmalıdır.\")\r\n    private String name;\r\n    @Min(0)\r\n    private double price;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java b/src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java
+--- a/src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java	
++++ b/src/main/java/pair7/assignment3/services/dtos/product/requests/AddProductRequest.java	
+@@ -14,4 +14,20 @@
+     private String name;
+     @Min(0)
+     private double price;
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public double getPrice() {
++        return price;
++    }
++
++    public void setPrice(double price) {
++        this.price = price;
++    }
+ }
